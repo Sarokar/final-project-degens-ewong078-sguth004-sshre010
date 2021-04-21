@@ -20,13 +20,24 @@
 ## Project Description
  > Your project description should summarize the project you are proposing. Be sure to include
  > * Why is it important or interesting to you?
+ > We think this is important to us because we all share the same passion of playing video games. We see video games as an escape to reality as it immerses us into a whole new universe, so we would like to replicate that feeling in our project. 
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
  >   * [toolname](link) - Short description
+ >   C++ is a coding language that we've learned at UCR. CMake will be used to create executables. Valgrind. Unity is a game engine that we may possibly use in our project. TBD (?)
  > * What will be the input/output of your project?
+User input to the terminal, or a mouse/controller to control the characters in which the user's inputs would reflect on the screen.
  > * What are the two design patterns you will be using? For each design pattern you must explain in 4-5 sentences:
  >   * Why you picked this pattern and what feature you will implement with it
+ >   UML diagram will offer us a way to visualize how each character will interact with each other. RPG will be the base class where there will be textures, assets, sounds, and video effects. Each character will have their own individual skills which will be their composite classes. Each character will have their own gear and weapons as well which will be associated with them. Characters can also interact with each other in certain points of interest where events can occur.
+ > OMT diagram will offer us a way to present information in a simpler way. It will present the characters' travel through areas in the story. With the dynamic model, we could incorporate interaction and travel between areas in the game. Object design will allow us to classify characters in their specific roles/classes as each character can be a different class such as a knight or assassin.
+
  >   * What problem you anticipate encountering when implementing your project that you will solve using the design pattern
+ >   UML: Some problems that we anticipate are we are inexperienced with design patterns so mistakes are bound to happen. We may not have the most efficient approach when we design our diagram. Another problem is that as the size increases, the runtime and complexity gets bigger.
+ >   OMT: One problem is that OMT diagrams are pretty outdated nowadays. It was superceded by UML, so it is rarely used in the industry today. Another problem is we may have trouble displaying enough information to our players because the OMT diagram simply doesn't allow us to show more information due to its simple complexity.
+ 
  >   * Why the chosen design pattern will lead to a good solution to that problem
+    UML: If we implement the UML diagram, it will lead to a more organized code, and it is easier to follow visually. We only need to know a fraction of the language to implement it. 
+    OMT: It will lead to a good solution because it is easy to draw and use as it's used in many real world problems. It also reduces the complexity of software, and it makes communication easier with the players.
  > * This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
 
  > ## Phase II
