@@ -18,14 +18,11 @@
 > * All project phases are to be submitted to this GitHub repository. You should modify this README file to reflect the different phases of the project. In addition, you should regularly hold sprint meetings with your group.
 
 ## Project Description (Phase I)
- > Your project description should summarize the project you are proposing. Be sure to include
-
  * We think this is important to us because we all share the same passion of playing video games. We see video games as an escape to reality as it immerses us into a whole new universe, so we would like to replicate that feeling in our project. 
 
- >   * [toolname](link) - Short description
  * C++ is a coding language that we've learned at UCR. CMake will be used to create executables. Valgrind can help us detect memory leaks, so that we can fix them. Unity is a game engine that we may possibly use in our project. TBD (?)
 
-User input to the terminal, or a mouse/controller to control the characters in which the user's inputs would reflect on the screen.
+* User input to the terminal, or a mouse/controller to control the characters in which the user's inputs would reflect on the screen.
 
 * Strategy Pattern will offer us a way to visualize how each character will interact with each other. RPG will be the base class where there will be textures, assets, sounds, and video effects. Each character will have their own individual skills which will be their composite classes. Each character will have their own gear and weapons as well which will be associated with them. Characters can also interact with each other in certain points of interest where events can occur.
 * Composite Pattern will offer us a way to present information in a simpler way. It will present the characters' travel through areas in the story. With the dynamic model, we could incorporate interaction and travel between areas in the game. Object design will allow us to classify characters in their specific roles/classes as each character can be a different class such as a knight or assassin.
