@@ -17,27 +17,24 @@
  > * Each member of the group **must** be committing code regularly and make sure their code is correctly attributed to them. We will be checking attributions to determine if there was equal contribution to the project.
 > * All project phases are to be submitted to this GitHub repository. You should modify this README file to reflect the different phases of the project. In addition, you should regularly hold sprint meetings with your group.
 
-## Project Description
+## Project Description (Phase I)
  > Your project description should summarize the project you are proposing. Be sure to include
- > * Why is it important or interesting to you?
- > We think this is important to us because we all share the same passion of playing video games. We see video games as an escape to reality as it immerses us into a whole new universe, so we would like to replicate that feeling in our project. 
- > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
- >   * [toolname](link) - Short description
- >   C++ is a coding language that we've learned at UCR. CMake will be used to create executables. Valgrind. Unity is a game engine that we may possibly use in our project. TBD (?)
- > * What will be the input/output of your project?
-User input to the terminal, or a mouse/controller to control the characters in which the user's inputs would reflect on the screen.
- > * What are the two design patterns you will be using? For each design pattern you must explain in 4-5 sentences:
- >   * Why you picked this pattern and what feature you will implement with it
- >   UML diagram will offer us a way to visualize how each character will interact with each other. RPG will be the base class where there will be textures, assets, sounds, and video effects. Each character will have their own individual skills which will be their composite classes. Each character will have their own gear and weapons as well which will be associated with them. Characters can also interact with each other in certain points of interest where events can occur.
- > OMT diagram will offer us a way to present information in a simpler way. It will present the characters' travel through areas in the story. With the dynamic model, we could incorporate interaction and travel between areas in the game. Object design will allow us to classify characters in their specific roles/classes as each character can be a different class such as a knight or assassin.
 
- >   * What problem you anticipate encountering when implementing your project that you will solve using the design pattern
- >   UML: Some problems that we anticipate are we are inexperienced with design patterns so mistakes are bound to happen. We may not have the most efficient approach when we design our diagram. Another problem is that as the size increases, the runtime and complexity gets bigger.
- >   OMT: One problem is that OMT diagrams are pretty outdated nowadays. It was superceded by UML, so it is rarely used in the industry today. Another problem is we may have trouble displaying enough information to our players because the OMT diagram simply doesn't allow us to show more information due to its simple complexity.
+ * We think this is important to us because we all share the same passion of playing video games. We see video games as an escape to reality as it immerses us into a whole new universe, so we would like to replicate that feeling in our project. 
+
+ >   * [toolname](link) - Short description
+ * C++ is a coding language that we've learned at UCR. CMake will be used to create executables. Valgrind can help us detect memory leaks, so that we can fix them. Unity is a game engine that we may possibly use in our project. TBD (?)
+
+User input to the terminal, or a mouse/controller to control the characters in which the user's inputs would reflect on the screen.
+
+* Strategy Pattern will offer us a way to visualize how each character will interact with each other. RPG will be the base class where there will be textures, assets, sounds, and video effects. Each character will have their own individual skills which will be their composite classes. Each character will have their own gear and weapons as well which will be associated with them. Characters can also interact with each other in certain points of interest where events can occur.
+* Composite Pattern will offer us a way to present information in a simpler way. It will present the characters' travel through areas in the story. With the dynamic model, we could incorporate interaction and travel between areas in the game. Object design will allow us to classify characters in their specific roles/classes as each character can be a different class such as a knight or assassin.
+
+ * Strategy Pattern: One problem that we would anticipate with this strategy pattern is the overall simplicity of the interface could get crowded by multiple objects in the application. This could make it harder to understand as people may not know the strategies that are being implemented. The application needs to know the different strategies that we implement so that it knows which ones to pick for the current event. 
+ * Composite Pattern: When using the composite pattern, one problem we might face is although it's a very powerful pattern, it can make the design overly vague which makes it difficult to set your own constraints on the components of a composite. If we want to set our own constraints, we would have to use run-time checks.
  
- >   * Why the chosen design pattern will lead to a good solution to that problem
-    UML: If we implement the UML diagram, it will lead to a more organized code, and it is easier to follow visually. We only need to know a fraction of the language to implement it. 
-    OMT: It will lead to a good solution because it is easy to draw and use as it's used in many real world problems. It also reduces the complexity of software, and it makes communication easier with the players.
+ *  Strategy Pattern: Strategy pattern may lead to a good solution to our problem because it makes it easier to modify the classes that we implement in our application. It could also simplify our code because we are able to switch strategies with ease. We can choose any required algorithms without implementing a switch case or if-else statements so this can possibly reduce our code.
+ *  Composite Pattern: Composite pattern can be a viable option because it can reduce the complexity of the program as it allows us to share objects. Our program will likely have many different classes and objects, so this pattern would make the program appear more organized as each set of characters and items will be classified into their own specified groups. This is a simple and straightforward pattern to visualize our program.
  > * This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
 
  > ## Phase II
