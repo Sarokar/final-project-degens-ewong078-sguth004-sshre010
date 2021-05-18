@@ -8,14 +8,14 @@ using namespace std:
 
 class Combat : public overallText {
 private: 
-	int health;
-	int attack;
-	int weaponStrength;
-	int armor; 
+	double health;
+	double attack;
+	double weaponStrength;
+	double armor; 
 
 public:
 	Combat();
-	Combat(int, int, int, int);
+	Combat(double, double, double, double);
 	int calcAttack();
 	int calcArmour();
 	int damage();

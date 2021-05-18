@@ -7,7 +7,7 @@ Combat::Combat(){
 	armour = 0;
 }
 
-Combat::Combat(int _health, int _attack, int _weaponStrength, int _armour){
+Combat::Combat(double _health, double _attack, double _weaponStrength, double _armour){
 	health = _health;
 	attack = _attack;
 	weaponStrength = _weaponStrength;
@@ -22,9 +22,8 @@ int Combat::calcArmour(){
 
 }
 
-int Combat::damage(){
-
-
+int Combat::damage(double d){
+	health = health - d;
 }
 
 int Combat::getHealth(){
