@@ -35,7 +35,7 @@
  > * This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
 
  > ## Phase II
- > Synopsis: Join a vast world with interesting people and diverse places. You, the player, are an average boy from an average family, but oh! What's this, adventure awaits? You will answer the call and not only save your village, but the world! With incredibly strong monsters and loot galore, this game will crave all your inner desires and change gaming forever. (WARNING EXPLICIT LANGUAGE)
+ > Synopsis: Join a vast world with interesting people and diverse places. You, the player, are an average boy from an average family, but oh! What's this, adventure awaits? You will answer the call and not only save your village, but the world! With incredibly strong monsters and loot galore, this game will crave all your inner desires and change gaming forever. Download BladeHeart now! (WARNING EXPLICIT LANGUAGE)
  > * In addition to completing the "Class Diagram" section below, you will need to 
  > * Set up your GitHub project board as a Kanban board for the project. It should have columns that map roughly to 
  >   * Backlog, TODO, In progress, In testing, Done
