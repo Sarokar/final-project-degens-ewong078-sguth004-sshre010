@@ -36,7 +36,7 @@
 
  > ## Phase II
  > Synopsis: Join a vast world with interesting people and diverse places. You, the player, are an average boy from an average family, but oh! What's this, adventure awaits? You will answer the call and not only save your village, but the world! With incredibly strong monsters and loot galore, this game will crave all your inner desires and change gaming forever. (WARNING EXPLICIT LANGUAGE)
- > In addition to completing the "Class Diagram" section below, you will need to 
+ > * In addition to completing the "Class Diagram" section below, you will need to 
  > * Set up your GitHub project board as a Kanban board for the project. It should have columns that map roughly to 
  >   * Backlog, TODO, In progress, In testing, Done
  >   * You can change these or add more if you'd like, but we should be able to identify at least these.
