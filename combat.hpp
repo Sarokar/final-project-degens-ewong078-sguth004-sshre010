@@ -7,22 +7,22 @@
 using namespace std:
 
 class Combat : public overallText {
-//private: 
-//	double health;
-//	double attack;
-//	double weaponStrength;
-//	double armor; 
+protected: 
+	double health;
+	double attack;
+	double weaponStrength;
+	double armor; 
 
 public:
 	Combat();
 	Combat(double, double, double, double);
 	virtual double calcAttack() = 0;
 	virtual double calcArmour() = 0;
-	virtual double damage() = 0;
-	virtual double getHealth() = 0;
-	virtual	double setHealth(double) = 0;
-	virtual double getAttack() = 0;
-	virtual double setAttack(double) = 0;
+	double damage();
+	double getHealth();
+	double setHealth(double);
+	double getAttack();
+	double setAttack(double);
 	double calcHPDef();
 	
  	void display();

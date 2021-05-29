@@ -13,13 +13,7 @@ private:
 public:
         double calcAttack();
         double calcArmour();
-        double damage();
-        double getHealth();
-	double setHealth(double);
-        double getAttack()
-	double setAttack(double);
-        void display();
-
+  
 };
 
 #endif //GRASS_HPP
