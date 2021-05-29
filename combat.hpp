@@ -16,11 +16,15 @@ private:
 public:
 	Combat();
 	Combat(double, double, double, double);
-	int calcAttack();
-	int calcArmour();
-	int damage();
-	int getHealth();
-	int getAttack();
+	double calcAttack();
+	double calcArmour();
+	double damage();
+	double getHealth();
+	double setHealth(double);
+	double getAttack();
+	double setAttack(double);
+	double calcHPDef();
+	
 	void display();
 
 };

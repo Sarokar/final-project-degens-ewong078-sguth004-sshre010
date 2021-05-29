@@ -1,10 +1,10 @@
 #include "combat.hpp"
 
 Combat::Combat(){
-	health = 0;
-	attack = 0;
-	weaponStrength = 0;
-	armour = 0;
+	health = 0.0;
+	attack = 0.0;
+	weaponStrength = 0.0;
+	armour = 0.0;
 }
 
 Combat::Combat(double _health, double _attack, double _weaponStrength, double _armour){
@@ -14,24 +14,32 @@ Combat::Combat(double _health, double _attack, double _weaponStrength, double _a
 	armour = _armour;
 }
 
-int Combat::calcAttack(){
-
+double Combat::calcAttack(){
+	
 }
 
-int Combat::calcArmour(){
-
+double Combat::calcArmour(){
+	
 }
 
-int Combat::damage(double d){
+double Combat::damage(double d){
 	health = health - d;
 }
 
-int Combat::getHealth(){
+double Combat::getHealth(){
 	return health;
 }
 
-int Combat::getAttack(){
+double Combat::setHealth(double _health){
+	health = _health;
+}
+
+double Combat::getAttack(){
 	return attack;
+}
+
+double Combat::setAttack(double _attack){
+	attack = _attack;
 }
 
 void Combat::display(){
