@@ -14,33 +14,33 @@ Combat::Combat(double _health, double _attack, double _weaponStrength, double _a
 	armour = _armour;
 }
 
-double Combat::calcAttack(){
-	
-}
+//double Combat::calcAttack(){
+//	
+//}
 
-double Combat::calcArmour(){
-	
-}
+//double Combat::calcArmour(){
+//	
+//}
 
-double Combat::damage(double d){
-	health = health - d;
-}
+//double Combat::damage(double d){
+//	health = health - d;
+//}
 
-double Combat::getHealth(){
-	return health;
-}
+//double Combat::getHealth(){
+//	return health;
+//}
 
-double Combat::setHealth(double _health){
-	health = _health;
-}
+//double Combat::setHealth(double _health){
+//	health = _health;
+//}
 
-double Combat::getAttack(){
-	return attack;
-}
+//double Combat::getAttack(){
+//	return attack;
+//}
 
-double Combat::setAttack(double _attack){
-	attack = _attack;
-}
+//double Combat::setAttack(double _attack){
+//	attack = _attack;
+//}
 
 void Combat::display(){
 
