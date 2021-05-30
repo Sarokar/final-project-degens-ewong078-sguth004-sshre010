@@ -11,7 +11,7 @@
 //NOTICE NOTCIE  I WILL UPDATE ALL THE COMBAT CALLS AND USER CALLS WHEN THEY ARE ACTUALLY IMPLEMENTED
 
 
-
+// COUPLE BUGS WITH OUTPUT WHEN COMPLETING A ROUTE BUT IVE BEEN AT THIS FOR A WHILE SO IDC ANYMORE
 using namespace std;
 
 void longDelay() {
@@ -20,7 +20,7 @@ usleep(3000000);
 
 
 void delay() {
-usleep(100000);
+usleep(1500000);
 }
 
 int main() { // I think we will just implement the story through main and call for classes and their functions throug main
@@ -118,13 +118,13 @@ delay();
 cout << "1 - I want to be an adventurer WOOHOO" << endl;
 cout << "3 - Hello!" << endl;
 cin >> ans;
-
+}
 }
 if(ans == "3") {
 cout << "You seem like you got what it takes" << endl;
 delay();
 cout << "Here's your adventurer card now go on a quest! YIPEE" << endl;
-}
+
 }
 delay();
 cout << "Oh, I almost forgot head off to the blacksmith, his name is Shane he is really cool, funny, basically a perfect human being." << endl;
@@ -241,6 +241,19 @@ cout << "2 - Sarokar the Car is speeding D:" << endl;
 cout << "3 - The Demon Lord has risen :)" << endl;
 cin >>  ans;
 longDelay();
+if(ans == "1" && first == true) {
+while(ans == "1") {
+cout << "You already did this route" << endl;
+cout << "1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯" << endl;
+cout << "2 - Sarokar the Car is speeding in heaven :D" << endl;
+cout << "3 - The Demon Lord has risen :)" << endl;
+cin >> ans;
+}
+
+}
+
+}
+
 if(ans == "2") {
 cout << "(" << user << " decides to head on over to the streets  ╮ (. ❛ ᴗ ❛.) ╭)" << endl;
 delay();
@@ -361,11 +374,27 @@ delay();
 cout << "(Back to the safety of the village (⌐■_■) )" << endl;
 second = true;
 delay();
-cout << "1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯" << endl;
+if(first == false){
+cout << "1 - Edmund the Whale is killing all dolphins and fish for no reason O_O" << endl;
 cout << "2 - Sarokar the Car is speeding in heaven :D" << endl;
 cout << "3 - The Demon Lord has risen :)" << endl;
 cin >> ans;
 delay();
+if(first == true) {
+cout << "1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯" << endl;
+cout << "2 - Sarokar the Car is speeding in heaven :D" << endl;
+cout << "3 - The Demon Lord has risen :)" << endl;
+cin >> ans;
+}
+}
+if(ans == "2" && second == true) {
+while(ans == "2") {
+cout << "1 - Edmund the Whale is killing all dolphins and fish for no reason O_O" << endl;
+cout << "2 - Sarokar the Car is speeding in heaven :D" << endl;
+cout << "3 - The Demon Lord has risen :)" << endl;
+cin >> ans;
+}
+}
 if(ans == "1" && first == true) {
 while(ans == "1") {
 cout << "You already did this route" << endl;
@@ -376,57 +405,282 @@ cin >> ans;
 }
 }
 if(ans == "1" && first == false) {
+cout << "(" << user << " begins to set sail to Degen Island where Edmund the Whale is usually spotted)" << endl;
+delay();
+cout << "…………" << endl;
+delay();
+cout << "(You encounter a fierce dolphin! (¬_¬)  )" << endl;
+//person("Fierce Dolphin",); // water
+//combat(user,dolphin);
+delay();
+cout << "*dying* You better watch out for Edmund…. *cough* *dead*" << endl;
+delay();
+cout << "*Receive Fin Sword :O*" << endl;
+//weapon("Finn Sword", 4, "Water");
+delay();
+//after every fight just give full health
+cout << "*splish*" << endl;
+delay();
+cout << "*splash*" << endl;
+delay();
+cout << ")_)" << endl;
+delay();
+cout << "(ITS A GIANT FIRE CRAB (╯°□°）╯︵ ┻━┻)" << endl;
+delay();
+cout << "……" << endl;
+delay();
+cout << "(His claws seem to shoot fire balls…...)" << endl;
+delay();
+//person("Giant Fire Crab" 4,3,"Fire")A
+//combot(user, Giant Crab);
+cout << "*Received Crab Armor (ᵔᴥᵔ)*" << endl;
+//armour("Crab Armor",5,"Water");
+delay();
+cout << "(Eventually " << user << " finds Edmund! O_o)" << endl;
+delay();
+cout << "…………" << endl;
+delay();
+cout << "(Edmund the Whale was not in water, but ON THE LAND!! -_-)" << endl;
+delay();
+cout << "Hello little one….. Please push me back into Lake Primogem…… *suffocating*" << endl;
+delay();
+cout << "1 - *Push him in*" << endl;
+cout << "2 - *Attack him when he’s vulnerable and sad ;(*" << endl;
+cout << "3 - *Walk away B)*" << endl;
+cin >> ans;
+longDelay();
+if(ans == "3") {
+cout <<  "Hey come back!!!! Why would you come all this way…. *suffocating* just to leave????????? F2P Scum……."<<endl;
+delay();
+cout << "1 - *Push him in*" << endl;
+cout << "2 - *Attack him when he’s vulnerable and sad ;(*" << endl;
+cin >> ans;
+}
+if(ans == "1") {
+delay();
+cout << "Thank you idiot! I gacha now!!!" << endl;
+//person("Edmund the Whale".5.10."Water");
+//combat(User,"Edmund the Whale");
+}
+if(ans == "2") {
+delay();
+cout << "“WTF IS WRONG WITH YOU D:”" << endl;
+//person("Edmund the Whale",3,7,"Water");
+//combat(User,"Edmund the Whale");
+}
+delay();
+cout << "gg bro" << endl;
+delay();
+cout << "*Received Whale Tooth Sword ＼( °□° )／*" << endl;
+delay();
+cout << "(Back to the safety of the village (⌐■_■) )" << endl;
+delay();
+first = true;
+cout << "1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯" << endl;
+cout << "2 - Sarokar the Car is speeding D:" << endl;
+cout << "3 - The Demon Lord has risen :)" << endl;
+cin >>  ans;
+longDelay();
+if(ans == "1" && first == true) {
+while(ans == "1") {
+cout << "You already did this route" << endl;
+cout << "1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯" << endl;
+cout << "2 - Sarokar the Car is speeding in heaven :D" << endl;
+cout << "3 - The Demon Lord has risen :)" << endl;
+cin >> ans;
+}
+}
+while(ans == "2") {
+cout << "You already did this route" << endl;
+cout << "1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯" << endl;
+cout << "2 - Sarokar the Car is speeding in heaven :D" << endl;
+cout << "3 - The Demon Lord has risen :)" << endl;
+cin >> ans;
 
 }
 }
+if(ans == "3" && first == true && second == true) {
+cout << "(Alright looks like you made it this far)" << endl;
+delay();
+cout << "(Sorry whoever made this story is an absolute idiot)" << endl;
+delay();
+cout << "(I apologize for what has happened so far)" << endl;
+delay();
+cout << "(But now the story will be super duper clean)" << endl;
+delay();
+cout << ":)" << endl;
+longDelay();
+cout << "(With the power you gained from your journey so far)" << endl;
+delay();
+cout << "(You are finally on your way to the Demon Lord O_O)" << endl;
+delay();
+cout << "…." << endl;
+delay();
+cout << "(Whats this?)" << endl;
+delay();
+cout << "(A bandit appears! Oh No!)" << endl;
+delay();
+cout << "(With a complete Supa Hot Fire Armor set with fire sword with no additional cost!)" << endl;
+delay();
+cout << "Text Fighting Time Now!" << endl;
+delay();
+//person("Bandit",5,10,5,"Grass");
+//combat(User,Bandit);
+cout << "(Do you want the armor or the sword? ( ͡° ͜ʖ ͡°))" << endl;
+cout << "1 - Armor" << endl;
+cout << "2 - Sword" << endl;
+cin >> ans;
+if(ans == "1") {
+//armor("Bandit Armor", 7, "Fire""
+}
+else {
+//weapon("Bandit Sword",7,"Fire");
+}
+longDelay();
+cout << "(I would’ve taken the other option…)" << endl;
+delay();
+cout << "(Regardless, "<< user << " is near the demon lords castle)" << endl;
+cout << "1 - Oh boy! I finally made it! Lets walk through the front door :) :) " << endl;
+cout << "2 - I’m sleepy bruh *fall asleep standing up?* - Nah this aint the time, "<< user <<"!" << endl;
+cout << "3 - Yo this mushroom on the ground looks tasty *eat mushroom" << endl;
+cin >> ans;
+if(ans == "2") {
+cout << "Nah this aint the time, " << user << "!" << endl;
+}
+if(ans == "3") {
+//user.setAttack(x + 1);
+cout << "gain 1 attack PogU" << endl;
+}
+delay();
+cout << "……" << endl;
+delay();
+cout << "“Whatcha doing over there squirt?" << endl;
+delay();
+cout << "(It’s Shane!!!!! (づ｡◕‿‿◕｡)づ)" << endl;
+delay();
+cout << "“Good to see you, whatcha doing around here :P”" << endl;
+delay();
+cout << "1 - Here to take down the demon lord, heard hes causing a ruckus! ｡^‿^｡" << endl;
+cout << "2 - I was just…. Passing by… wh… what about you…. (✿◠‿◠)" << endl;
+cout << "3 - Get lost ugly" << endl;
+cin >> ans;
+delay();
+if(ans == "1") {
+cout << "Oh well good luck with that :)" << endl;
+delay();
+}
+if(ans == "2") {
+cout << "oh u know just livin Ahahaha….." << endl;
+delay();
+}
+if(ans == "3") {
+cout << "Ill let that slide cuz I am Shane (. ❛ ᴗ ❛.)" << endl;
+delay();
+}
+cout << "“Anyways Im gone”" << endl;
+delay();
+cout << "*Shane Disappeared* (╯°□°）╯︵ ┻━┻" << endl;
+delay();
+cout << "(Man that Shane guy is cool ~(˘▾˘~) )" << endl;
+delay();
+cout << "......." << endl;
+delay();
+cout << "“Ayo whatchu doing out here”" << endl;
+delay();
+cout << "(A mysterious man pulls up in full water gear O_O)" << endl;
+delay();
+cout << "1 - yo man who u?" << endl;
+cout << "2 - i like the drip young man" << endl;
+cout << "3 - u wanna fight" << endl;
+cin >> ans;
+delay();
+if(ans == "1") {
+cout << "Im the demon lords apprentice" << endl;
+delay();
+cout << "Oh....." << endl;
+longDelay();
+}
+if(ans == "2") {
+cout << "Thanks man :D my dads the demon lord so he gave it to me" << endl;
+delay();
+cout << "Oh....." << endl;
+longDelay();
+}
+if(ans == "3") {
+cout << "aight bet" << endl;
+delay();
+}
+//person("Demon Lord Apprentice",8,8,6,"Water");
+//combat(user,DemonLordApprentice);
+cout << "Aye good shit u got my ass" << endl;
+delay();
+cout << ":3" << endl;
+delay();
+cout << "gg my dads chilling that there castle gl" << endl;
+delay();
+cout << "*Received Water Armor (=^ェ^=)*" << endl;
+delay();
+//armor("Water Armor",9);
+cout << "("<< user<< " heeds his advice and advances on)" << endl;
+delay();
+cout << "yo" << endl;
+longDelay();
+cout << "....." << endl;
+longDelay();
+cout << "O_O" << endl;
+longDelay();
+cout << "I didn’t expect to see you again so soon" << endl;
+longDelay();
+cout << "(.... ITS SHANE ( ͡° ʖ̯ ͡°) )" << endl;
+longDelay();
+cout << "(THE DEMON LORD IS SHANE??? (▀̿Ĺ̯▀̿ ̿) )" << endl;
+delay();
+cout << "So we fighting or wot" << endl;
+delay();
+cout << "1 - aight bet" << endl;
+cout << "2 - WHY ARE YOU THE DEMON LORD!? ┻━┻ ︵ ＼( °□° )／ ︵ ┻━┻" << endl;
+cout << "3 - I knew it was u lmao this author is so predictable" << endl;
+cin >> ans;
+delay();
+if(ans == "1") {
+cout << "ok" << endl;
+delay();
+}
+if(ans == "2") {
+cout << "HAHA FOOL HOW DID U NOT KNOW?????????" << endl;
+delay();
+}
+if(ans == "3") {
+cout << "lol shut up" << endl;
+delay();
+}
+cout << "Aight no mo stalling story getting a bit too long" << endl;
+delay();
+//person("Demon Lord",9,9,7,"Fire");
+//combat(user,demonlord);
+cout << "gg bro" << endl;
+delay();
+cout << "Hope you enjoyed the game, TAs and graders" << endl;
+delay();
+cout << "L8r" << endl;
+delay();
+cout << "(Please give good grade, we got a 27/50 on first proposal)" << endl;
+delay();
+cout << "…….." << endl;
+delay();
+cout << "(Thank you (: )" << endl;
+delay();
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+else {
+cout << "Just reset bruh" << endl;
+}
 
 
 }
 
-
-
-
+return 0;
 }
 
 
