@@ -6,26 +6,31 @@
 
 using namespace std:
 
-class Combat : public overallText {
+class Combat {
 protected: 
+	string name;
 	double health;
 	double attack;
 	double weaponStrength;
 	double armor; 
-
+	string element;
 public:
 	Combat();
-	Combat(double, double, double, double);
-	virtual double calcAttack() = 0;
-	virtual double calcArmour() = 0;
-	double damage();
+	Combat(string, double, double, double, double, string);
+	//virtual double calcAttack() = 0;
+	//virtual double calcArmor() = 0;
+	void damage(double);
+	string getName();
+	void setName(string);
 	double getHealth();
-	double setHealth(double);
+	void setHealth(double);
 	double getAttack();
-	double setAttack(double);
-	double calcHPDef();
-	
- 	void display();
+	void setAttack(double);
+	string getElement();
+	void setElement(string);
+	double getArmor();
+	void setArmor(double);
+ 	//void display();
 
 };
 

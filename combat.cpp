@@ -1,47 +1,68 @@
-#include "combat.hpp"
+#include "combat.hpp" 
 
 Combat::Combat(){
-	health = 0.0;
-	attack = 0.0;
-	weaponStrength = 0.0;
-	armour = 0.0;
+        name = "";
+        health = 0.0;
+        attack = 0.0;
+        weaponStrength = 0.0;
+        armor = 0.0;
+        element = "";
 }
 
-Combat::Combat(double _health, double _attack, double _weaponStrength, double _armour){
-	health = _health;
-	attack = _attack;
-	weaponStrength = _weaponStrength;
-	armour = _armour;
+Combat::Combat(string _name, double _health, double _attack, double _weaponStrength, double _armor, string _element){
+        name = _name;
+        health = _health;
+        attack = _attack;
+        weaponStrength = _weaponStrength;
+        armor = _armor;
+        element = _element;
 }
 
-//double Combat::calcAttack(){
-//	
-//}
+void Combat::damage(double d){
+        if(armor <= 0){
+                health = health - d;
+        }
+        else{
+                armor = armor - d;
+        }
+}
 
-//double Combat::calcArmour(){
-//	
-//}
+string Combat::getName(){
+        return name;
+}
 
-double Combat::damage(double d){
-	health = health - d;
+void Combat::setName(string _name){
+        name = _name;
 }
 
 double Combat::getHealth(){
-	return health;
+        return health;
 }
 
-double Combat::setHealth(double _health){
-	health = _health;
+void Combat::setHealth(double _health){
+        health = _health;
 }
 
 double Combat::getAttack(){
-	return attack;
+        return attack;
 }
 
-double Combat::setAttack(double _attack){
-	attack = _attack;
+void Combat::setAttack(double _attack){
+        attack = _attack;
 }
 
-void Combat::display(){
+double Combat::getArmor(){
+        return armor;
+}
 
+void Combat::setArmor(double _armor){
+        armor = _armor;
+}
+
+string Combat::getElement(){
+        return element;
+}
+
+void Combat::setElement(string _element){
+        element = _element;
 }
