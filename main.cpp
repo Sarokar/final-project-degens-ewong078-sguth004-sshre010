@@ -542,7 +542,7 @@ cout << "(I would’ve taken the other option…)" << endl;
 delay();
 cout << "(Regardless, "<< user << " is near the demon lords castle)" << endl;
 cout << "1 - Oh boy! I finally made it! Lets walk through the front door :) :) " << endl;
-cout << "2 - I’m sleepy bruh *fall asleep standing up?* - Nah this aint the time, "<< user <<"!" << endl;
+cout << "2 - I’m sleepy bruh *fall asleep standing up?*"<< user <<"!" << endl;
 cout << "3 - Yo this mushroom on the ground looks tasty *eat mushroom" << endl;
 cin >> ans;
 if(ans == "2") {
