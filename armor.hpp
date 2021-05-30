@@ -3,7 +3,7 @@
 
 #include "person.hpp"
 #include <iostream>
-#include <string>
+#include <string.h>
 
 class Armor : public Person {
     private:
@@ -14,8 +14,25 @@ class Armor : public Person {
             setName(name);
             defense = defaultDef;
         }
-        virtual void evaluateText();
-        virtual void display();
+
+        double setDef(double toSet) {
+            defense = toSet;
+        }
+
+           //my interpretation but i dont think its that good tbh LOL
+
+      virtual std::string evaluateText(std::string toEval) {
+            if (toEval == "defense") {
+                return std::to_string(defense);
+            }
+            else {
+                return "invalid";
+            }
+        }
+
+        virtual std::string display(std::string info) {
+          return evaluateText(info);
+        }
 
 
 };

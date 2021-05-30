@@ -18,9 +18,40 @@ class Character : public Person {
             hp = defaultHP;
             attack = defaultAtt;
         }
-        virtual void evaluateText();
-        virtual void display();
 
+        double setSpd(double toSet) {
+            speed = toSet;
+        }
+        
+        double setHP(double toSet) {
+            hp = toSet;
+        }
+
+        double setAtt(double toSet) {
+            attack = toSet;
+        }
+
+           //my interpretation but i dont think its that good tbh LOL
+
+       virtual std::string evaluateText(std::string toEval) {
+
+            if (toEval == "strength") {
+                return std::to_string(speed);
+            }
+            else if (toEval == "hp") {
+                return std::to_string(hp);
+            }
+             else if (toEval == "attack") {
+                return std::to_string(attack);
+            }
+            else {
+                return "invalid";
+            }
+        }
+
+        virtual std::string display(std::string info) {
+          return evaluateText(info);
+        }
 
 };
 
