@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-using namespace std:
+using namespace std;
 
 class Combat {
 protected: 
@@ -17,8 +17,7 @@ protected:
 public:
 	Combat();
 	Combat(string, double, double, double, double, string);
-	//virtual double calcAttack() = 0;
-	//virtual double calcArmor() = 0;
+	virtual void calcAttack() = 0;
 	void damage(double);
 	string getName();
 	void setName(string);
@@ -30,7 +29,6 @@ public:
 	void setElement(string);
 	double getArmor();
 	void setArmor(double);
- 	//void display();
 
 };
 
