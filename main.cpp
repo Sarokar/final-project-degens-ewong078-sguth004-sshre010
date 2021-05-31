@@ -1,5 +1,8 @@
 #include <iostream>
-//#include "combat.hpp"
+#include "combat.hpp"
+#include "grass.hpp"
+#include "water.hpp"
+#include "fire.hpp"
 //#include "itemNames.hpp"
 //#include "names.hpp"
 //#include "overallText.hpp"
