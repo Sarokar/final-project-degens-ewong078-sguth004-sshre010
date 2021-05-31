@@ -16,10 +16,6 @@ public:
             cout << getName() << " dealt " << temp << " grass damage to " << enemy.getName() << endl;
             cout << "Armor: " << enemy.getArmor() << endl;
             cout << "Health: " << enemy.getHealth() << endl << endl;
-            if (enemy.getHealth() == 0) {
-                health = 100;
-                armor = 100;
-            }
         }
         else if (enemy.getElement() == "Fire") {
             double temp = (attack + weaponStrength) * 0.5;
@@ -27,10 +23,6 @@ public:
             cout << getName() << " dealt " << temp << " grass damage to " << enemy.getName() << endl << "DO YOU NOT UNDERSTAND SIMPLE TYPE ADVANTAGES? ARE YOU A 3HEAD??" << endl;
             cout << "Armor: " << enemy.getArmor() << endl;
             cout << "Health: " << enemy.getHealth() << endl << endl;
-            if (enemy.getHealth() == 0) {
-                health = 100;
-                armor = 100;
-            }
         }
         else if (enemy.getElement() == "Water") {
             double temp = (attack + weaponStrength) * 1.5;
