@@ -4,24 +4,31 @@
 #include <iostream>
 #include <string>
 
-using namespace std:
+using namespace std;
 
-class Combat : public overallText {
-private: 
+class Combat {
+protected: 
+	string name;
 	double health;
 	double attack;
 	double weaponStrength;
 	double armor; 
-
+	string element;
 public:
 	Combat();
-	Combat(double, double, double, double);
-	int calcAttack();
-	int calcArmour();
-	int damage();
-	int getHealth();
-	int getAttack();
-	void display();
+	Combat(string, double, double, double, double, string);
+	virtual void calcAttack() = 0;
+	void damage(double);
+	string getName();
+	void setName(string);
+	double getHealth();
+	void setHealth(double);
+	double getAttack();
+	void setAttack(double);
+	string getElement();
+	void setElement(string);
+	double getArmor();
+	void setArmor(double);
 
 };
 
