@@ -15,21 +15,21 @@ public:
             enemy.damage(temp);
             cout << getName() << " dealt " << temp << " water damage to " << enemy.getName() << endl;
             cout << "Armor: " << enemy.getArmor() << endl;
-            cout << "Health: " << enemy.getHealth() << endl;
+            cout << "Health: " << enemy.getHealth() << endl << endl;
         }
         else if (enemy.getElement() == "Grass") {
             double temp = (attack + weaponStrength) * 0.5;
             enemy.damage(temp);
             cout << getName() << " dealt " << temp << " water damage to " << enemy.getName() << endl << "DO YOU NOT UNDERSTAND SIMPLE TYPE ADVANTAGES? ARE YOU A 3HEAD??" << endl;
             cout << "Armor: " << enemy.getArmor() << endl;
-            cout << "Health: " << enemy.getHealth() << endl;
+            cout << "Health: " << enemy.getHealth() << endl << endl;
         }
         else if (enemy.getElement() == "Fire") {
             double temp = (attack + weaponStrength) * 1.5;
             enemy.damage(temp);
             cout << getName() << " dealt " << temp << " water damage to " << enemy.getName() << endl << "GOOD JOB, YOU USED WATER TO TAKE OUT FIRE! PogU" << endl;
             cout << "Armor: " << enemy.getArmor() << endl;
-            cout << "Health: " << enemy.getHealth() << endl;
+            cout << "Health: " << enemy.getHealth() << endl << endl;
         }
 
         if (enemy.getHealth() == 0) {
