@@ -1,5 +1,8 @@
 #include <iostream>
-//#include "combat.hpp"
+#include "combat.cpp"
+#include "fire.hpp"
+#include "water.hpp"
+#include "grass.hpp"
 //#include "itemNames.hpp"
 //#include "names.hpp"
 //#include "overallText.hpp"
@@ -149,7 +152,7 @@ delay();
 if(ans == "2") {
 cout << "get out please *cries*" << endl;
 delay();
-cout << "*Received nothing except for guilt for lying to the heavenly Shane...*" << endl;
+cout << "*Received shit armor and sword but now you feel sad for hurting the Great Shane's feelings D:" << endl;
 delay();
 }
 cout << "(It seems we are all set for an adventure and a grand one too so " << user << " goes to check the open quests :) )" << endl;
@@ -159,6 +162,9 @@ cout << "2 - Sarokar the Car is speeding D:" << endl;
 cout << "3 - The Demon Lord has risen :)" << endl;
 cin >> ans;
 longDelay();
+Grass Player(user,100,20,10,10,"Grass");
+Water Player2(user,100,20,10,10,"Water");
+Fire Player3(user,100,20,10,10,"Fire");
 
 // START OF BRANCHING
 
@@ -171,13 +177,65 @@ delay();
 cout << "…………" << endl;
 delay();
 cout << "(You encounter a fierce dolphin! (¬_¬)  )" << endl;
-//person("Fierce Dolphin",); // water
-//combat(user,dolphin);
+Water dolphin("Fierce Dolphin",75,10,20,20,"Water");
+
+//FIRST TESTED FIGHT
+
+while(dolphin.getHealth() != 0) {
+cout << "==============================================================" << endl;
+cout << "Enemy first O_O" << endl;
+dolphin.calcEnemyAttack(Player);
+delay();
+cout << "==============================================================" << endl;
+cout << "1 - Attack" << endl;
+cout << "2 - Talk" << endl;
+cout << "3 - Run" << endl;
+cin >> ans;
+if(ans == "1") {
+cout << "==============================================================" << endl;
+Player.calcAttack(dolphin);
+delay();
+}
+else if(ans == "2") {
+string talking;
+delay();
+cout << "1 - What up" << endl;
+cout << "2 - ARF ARF ARF" << endl;
+cout << "3 - Yo u looking good today O)O" << endl;
+cin >> talking;
+delay();
+
+if(talking == "1") {
+delay();
+cout << "Please stop talking to me" << endl;
+}
+else if(talking == "2") {
+delay();
+cout << "Yea theres something wrong with you" << endl;
+}
+else if(talking == "3") {
+delay();
+cout << "Thanks man <3" << endl;
+}
+else {
+cout << "?????????????" << endl;
+}
+}
+else if(ans == "3") {
+cout << "Nah you can't run on this one" << endl;
+}
+if(Player.getHealth() == 0) {
+	cout << "lol u lost in a text based game" << endl;
+	return 0;
+}
+}
+
 delay();
 cout << "*dying* You better watch out for Edmund…. *cough* *dead*" << endl;
 delay();
-cout << "*Receive Fin Sword :O*" << endl;
-//weapon("Finn Sword", 4, "Water");
+cout << "*Receive Fin Sword and Fin Armor :O*" << endl;
+Player2.setArmor(20);
+Player2.setWeapon(20);
 delay();
 //after every fight just give full health
 cout << "*splish*" << endl;
@@ -192,10 +250,61 @@ cout << "……" << endl;
 delay();
 cout << "(His claws seem to shoot fire balls…...)" << endl;
 delay();
-//person("Giant Fire Crab" 4,3,"Fire")A
-//combot(user, Giant Crab);
-cout << "*Received Crab Armor (ᵔᴥᵔ)*" << endl;
-//armour("Crab Armor",5,"Water");
+Fire crab("Fire Crab",100,15,35,30,"Fire");
+
+while(crab.getHealth() != 0) {
+delay();
+cout << "==============================================================" << endl;
+cout << "1 - Attack" << endl;
+cout << "2 - Talk" << endl;
+cout << "3 - Run" << endl;
+cin >> ans;
+if(ans == "1") {
+cout << "==============================================================" << endl;
+Player2.calcAttack(crab);
+delay();
+}
+else if(ans == "2") {
+string talking;
+delay();
+cout << "1 - Aren't crabs supposed to be a water type??????" << endl;
+cout << "2 - Man I only have one more day to work on this project" << endl;
+cout << "3 - I LOVE THE TASTE OF CRAB YYEYEYEYEYEYE" << endl;
+cin >> talking;
+delay();
+
+if(talking == "1") {
+delay();
+cout << "Not this one, ugly little one :P" << endl;
+}
+else if(talking == "2") {
+delay();
+cout << "Yea, the author of this story procrastinated heavy" << endl;
+}
+else if(talking == "3") {
+delay();
+cout << "O_O WTF relax man its just a game" << endl;
+}
+else {
+cout << "?????????????" << endl;
+}
+}
+else if(ans == "3") {
+cout << "Nah you can't run on this one" << endl;
+}
+cout << "==============================================================" << endl;
+if(crab.getHealth() != 0) {
+crab.calcEnemyAttack(Player2);
+delay();
+}
+if(Player2.getHealth() == 0) {
+        cout << "lol u lost in a text based game" << endl;
+        return 0;
+}
+}
+cout << "*Received Crab Armor and Swordᵔᴥᵔ)*" << endl;
+Player3.setArmor(45);
+Player3.setWeapon(30);
 delay();
 cout << "(Eventually " << user << " finds Edmund! O_o)" << endl;
 delay();
@@ -220,23 +329,126 @@ cin >> ans;
 if(ans == "1") {
 delay();
 cout << "Thank you idiot! I gacha now!!!" << endl;
-//person("Edmund the Whale".5.10."Water");
-//combat(User,"Edmund the Whale");
+Water ed("Edmund the Whale",100,15,10,50,"Water");
+while(ed.getHealth() != 0) {
+cout << "==============================================================" << endl;
+cout << "Enemy first O_O" << endl;
+ed.calcEnemyAttack(Player);
+delay();
+cout << "==============================================================" << endl;
+cout << "1 - Attack" << endl;
+cout << "2 - Talk" << endl;
+cout << "3 - Run" << endl;
+cin >> ans;
+if(ans == "1") {
+cout << "==============================================================" << endl;
+Player.calcAttack(ed);
+delay();
+}
+else if(ans == "2") {
+string talking;
+delay();
+cout << "1 - Are you some sort of killer whale?! O_O" << endl;
+cout << "2 - FIGHT ME ON THE LAND YOU COWARD" << endl;
+cout << "3 - *Drops 20,000 BNB on the ground*" << endl;
+cin >> talking;
+delay();
+
+if(talking == "1") {
+delay();
+cout << "AHAHAHAHAH good one loser" << endl;
+}
+else if(talking == "2") {
+delay();
+cout << "SHOULDVE BROUGHT UR MONA F2P SCUM!" << endl;
+}
+else if(talking == "3") {
+delay();
+cout << "AHHHHHH WHAT??? IVE BEEN OUTWHALED?????" << endl;
+ed.setHealth(0);
+}
+else {
+cout << "?????????????" << endl;
+}
+}
+else if(ans == "3") {
+cout << "Nah you can't run on this one" << endl;
+}
+if(Player.getHealth() == 0) {
+        cout << "lol u lost in a text based game" << endl;
+        return 0;
+}
+ans = "";
+}
+
 }
 if(ans == "2") {
 delay();
 cout << "“WTF IS WRONG WITH YOU D:”" << endl;
-//person("Edmund the Whale",3,7,"Water");
-//combat(User,"Edmund the Whale");
+Water ed("Edmund the Whale",100,15,10,50,"Water");
+while(ed.getHealth() != 0) {
+delay();
+cout << "==============================================================" << endl;
+cout << "1 - Attack" << endl;
+cout << "2 - Talk" << endl;
+cout << "3 - Run" << endl;
+cin >> ans;
+if(ans == "1") {
+cout << "==============================================================" << endl;
+Player.calcAttack(ed);
+delay();
+}
+else if(ans == "2") {
+string talking;
+delay();
+cout << "1 - Are you some sort of killer whale?! O_O" << endl;
+cout << "2 - FIGHT ME ON THE LAND YOU COWARD" << endl;
+cout << "3 - *Drops 20,000 BNB on the ground*" << endl;
+cin >> talking;
+delay();
+
+if(talking == "1") {
+delay();
+cout << "AHAHAHAHAH good one loser" << endl;
+}
+else if(talking == "2") {
+delay();
+cout << "SHOULDVE BROUGHT UR MONA F2P SCUM!" << endl;
+}
+else if(talking == "3") {
+delay();
+cout << "AHHHHHH WHAT??? IVE BEEN OUTWHALED?????" << endl;
+ed.setHealth(0);
+}
+else {
+cout << "?????????????" << endl;
+}
+}
+else if(ans == "3") {
+cout << "Nah you can't run on this one" << endl;
+}
+if(ed.getHealth() != 0) {
+cout << "==============================================================" << endl;
+cout << "Enemy first O_O" << endl;
+ed.calcEnemyAttack(Player);
+}
+if(Player.getHealth() == 0) {
+        cout << "lol u lost in a text based game" << endl;
+        return 0;
+}
+}
+
 }
 delay();
 cout << "gg bro" << endl;
 delay();
-cout << "*Received Whale Tooth Sword ＼( °□° )／*" << endl;
+cout << "*Received Whale Tooth Sword and Armor ＼( °□° )／*" << endl;
 delay();
 cout << "(Back to the safety of the village (⌐■_■) )" << endl;
 delay();
 first = true;
+Player2.setArmor(35);
+Player2.setWeapon(35);
 cout << "1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯" << endl;
 cout << "2 - Sarokar the Car is speeding D:" << endl;
 cout << "3 - The Demon Lord has risen :)" << endl;
@@ -279,11 +491,16 @@ delay();
 }
 cout << "(A wild angry Motorcycle Mother appears! (゜-゜) )" << endl;
 delay();
-cout << "(The mother pulls out the newly created Grass Grass Gun O_O" << endl;
+cout << "(The mother pulls out the newly created Grass Grass Gun and Helmet 2 for 1 combo O_O" << endl;
 delay();
-//person("Motor Mother", 6. 9, "Grass");
-//combat(User,Motor Mother);
-cout << "*Received Grass Grass Gun* ヽ༼ຈل͜ຈ༽ﾉ*" << endl;
+
+//if(first == true) {
+//
+//}
+
+
+
+cout << "*Received Grass Grass Gun and Helmet* ヽ༼ຈل͜ຈ༽ﾉ*" << endl;
 //weapon("Grass Grass Gun", 5, "Grass");
 delay();
 cout << "(Well you just killed his mother)" << endl;

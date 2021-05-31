@@ -76,4 +76,6 @@ void Combat::setElement(string _element) {
     element = _element;
 }
 
-
+void Combat::setWeapon(double _weapon){
+    weaponStrength = _weapon;
+}
