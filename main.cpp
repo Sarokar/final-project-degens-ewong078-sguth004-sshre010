@@ -60,7 +60,7 @@ if(ans == "Yes") {
 cout << "Splendid! At least I remembered something!" << endl;
 delay();
 }
-else if(ans == "No") {
+else {
 cout << "HUH! does that mean your a... bad boy? O_O" << endl;
 delay();
 }
@@ -617,7 +617,7 @@ cout << "Aye good shit u got my ass" << endl;
 delay();
 cout << ":3" << endl;
 delay();
-cout << "gg my dads chilling that there castle gl" << endl;
+cout << "gg my dads chilling in that there castle gl" << endl;
 delay();
 cout << "*Received Water Armor (=^ェ^=)*" << endl;
 delay();
@@ -674,12 +674,14 @@ delay();
 
 }
 
-else {
+
+
+}
+if(ans == "3" && first == false && second == false) {
 cout << "Just reset bruh" << endl;
 }
 
 
-}
 
 return 0;
 }
