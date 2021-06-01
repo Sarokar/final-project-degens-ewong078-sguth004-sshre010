@@ -61,6 +61,19 @@
  
  ## Screenshots
  > Screenshots of the input/output after running your application
+ > ![Screenshot1](https://user-images.githubusercontent.com/81605224/120271888-fe0f5a00-c260-11eb-892c-7a18b28f93ee.PNG)
+ > **Starting your journey!**
+ > ![Screenshot2](https://user-images.githubusercontent.com/81605224/120271954-197a6500-c261-11eb-8747-88a5ecf384ff.PNG)
+ > **Exciting Dialogue!**
+ > ![Screenshot3](https://user-images.githubusercontent.com/81605224/120272073-4b8bc700-c261-11eb-9897-ff50102bd0b3.PNG)
+ > **Insane Combat and Enemies!**
+ > ![Screenshot4](https://user-images.githubusercontent.com/81605224/120272122-60685a80-c261-11eb-8b51-fb7dd55daedb.PNG)
+ > **During combat, the abillity to speak to your opponent!**
+ > ![Screenshot5](https://user-images.githubusercontent.com/81605224/120272167-7544ee00-c261-11eb-94bf-fa379c2b061b.PNG)
+ > **Elemental damage spices up situations!**
+
+
+
  ## Installation/Usage
  > Instructions on installing and running your application
  ## Testing
