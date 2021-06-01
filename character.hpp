@@ -94,7 +94,7 @@ class Character : public Person {
 
     
 
-        virtual void display(int info) {
+        virtual void display(std::string info) {
            evaluateText(info);
         }
 
@@ -102,9 +102,19 @@ class Character : public Person {
            evaluateText(other, characterType);
         }
 
-        virtual void evaluateText(int toEval) {
-
-            toEval = 2;
+        virtual void evaluateText(string toEval) {
+            if (toEval == "HP") {
+                cout << hp;
+            }
+            if (toEval == "speed") {
+                cout << speed;
+            }
+            if (toEval == "attack") {
+                cout << attack;
+            }
+            if (toEval == "elementType") {
+                cout << elementType;
+            }
         }
 
 

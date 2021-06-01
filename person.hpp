@@ -20,14 +20,9 @@ class Person {
             name = nameInput;
         }
 
-           //my interpretation but i dont think its that good tbh LOL
 
-        // virtual std::string evaluateText(std::string);
-        // virtual std::string display(std::string) = 0; //i think we should change display 
-        virtual void evaluateText(int) = 0;
-        virtual void display(int) = 0;
-        // virtual void evaluateText(Character, int);
-        // virtual void display(Character, int);
+        virtual void evaluateText(std::string) = 0;
+
 
 
 };
