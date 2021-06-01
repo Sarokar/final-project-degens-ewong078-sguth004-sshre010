@@ -126,13 +126,13 @@ class Character : public Person {
         virtual void evaluateText(string toEval) {
             if (toEval == "HP") {
                 if (elementType == "Fire") {
-                    fireType.getHealth();
+                    cout << fireType.getHealth();
                 }
                 if (elementType == "Water") {
-                    waterType.getHealth();
+                     cout <<waterType.getHealth();
                 }
                 if (elementType == "Grass") {
-                    grassType.getHealth();
+                     cout <<grassType.getHealth();
                 }
             }
             if (toEval == "speed") {
