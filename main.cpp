@@ -205,7 +205,7 @@ if(ans == "1") {
         cout << "==============================================================" << endl;
         cout << "Enemy first O_O" << endl;
         // dolphin.calcEnemyAttack(Player);
-        dolphin.display(waterPlayer,1);
+        dolphin.display(grassPlayer,1);
         delay();
         cout << "==============================================================" << endl;
         cout << "1 - Attack" << endl;
@@ -215,7 +215,7 @@ if(ans == "1") {
         if(ans == "1") {
         cout << "==============================================================" << endl;
         // Player.calcAttack(dolphin);
-        waterPlayer.display(dolphin,0);
+        grassPlayer.display(dolphin,0);
 
         delay();
         }
@@ -1003,7 +1003,7 @@ if(ans == "2") {
         if(ans == "1") {
         cout << "==============================================================" << endl;
         // waterPlayer.calcAttack(dolphin);
-        waterPlayer.display(dolphin, 0);
+        grassPlayer.display(dolphin, 0);
         delay();
         }
         else if(ans == "2") {
