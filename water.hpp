@@ -5,6 +5,9 @@
 
 class Water : public Combat {
 
+Water(){}
+
+
 public:
     Water(string name, double health, double attack, double weaponStrength, double armor, string element) : Combat(name, health, attack, weaponStrength, armor, element) {}
 
