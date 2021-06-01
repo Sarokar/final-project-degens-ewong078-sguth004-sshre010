@@ -587,7 +587,7 @@ if(ans == "2") {
         cout << "==============================================================" << endl;
         cout << "Enemy first O_O" << endl;
         // motor.calcEnemyAttack(Player3);
-        motor.display(firePlayer3,1);
+        motor.display(grassPlayer,1);
 
         delay();
         cout << "==============================================================" << endl;
@@ -598,7 +598,7 @@ if(ans == "2") {
         if(ans == "1") {
         cout << "==============================================================" << endl;
         // Player3.calcAttack(motor);
-        firePlayer3.display(motor,0);
+        grassPlayer.display(motor,0);
 
         delay();
         }
@@ -661,7 +661,7 @@ if(ans == "2") {
         cout << "==============================================================" << endl;
         cout << "Enemy first O_O" << endl;
         // motor.calcEnemyAttack(Player);
-        motor.display(firePlayer3,1);
+        motor.display(grassPlayer,1);
 
         delay();
         cout << "==============================================================" << endl;
@@ -672,7 +672,7 @@ if(ans == "2") {
         if(ans == "1") {
         cout << "==============================================================" << endl;
         // Player.calcAttack(motor);
-        firePlayer3.display(motor,0);
+        grassPlayer.display(motor,0);
 
         delay();
         }
