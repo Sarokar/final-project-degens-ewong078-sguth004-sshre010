@@ -11,8 +11,8 @@ public:
     Fire(string name, double health, double attack, double weaponStrength, double armor, string element) : Combat(name, health, attack, weaponStrength, armor, element) {}
 
     void calcAttack(Combat& enemy) {
-        int chance = rand() % 100;
-        if (chance < 85) {
+       // int chance = rand() % 100;
+        //if (chance < 85) {
             if (enemy.getElement() == "Fire") {
                 double temp = (attack + weaponStrength) * 1.0;
                 enemy.damage(temp);
@@ -34,11 +34,11 @@ public:
                 cout << "Armor: " << enemy.getArmor() << endl;
                 cout << "Health: " << enemy.getHealth() << endl << endl;
             }
-        }
-        else
-        {
-            cout << getName() << "'s attack missed!" << endl << endl;
-        }
+       // }
+       // else
+        //{
+           // cout << getName() << "'s attack missed!" << endl << endl;
+       // }
        
 	 if (enemy.getHealth() == 0) {
             setHealth(100);
@@ -46,8 +46,8 @@ public:
     }
 
     void calcEnemyAttack(Combat& player) {
-        int chance = rand() % 100;
-        if (chance < 75) {
+       // int chance = rand() % 100;
+       // if (chance < 75) {
             if (player.getElement() == "Fire") {
                 double temp = (attack + weaponStrength) * 1.0;
                 player.damage(temp);
@@ -69,10 +69,10 @@ public:
                 cout << "Armor: " << player.getArmor() << endl;
                 cout << "Health: " << player.getHealth() << endl << endl;
             }
-        }
-        else {
-            cout << getName() << "'s attack missed! How clumsy!" << endl << endl;
-        }
+        //}
+        //else {
+           // cout << getName() << "'s attack missed! How clumsy!" << endl << endl;
+        //}
     }
     
 };
