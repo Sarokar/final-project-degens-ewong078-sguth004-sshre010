@@ -97,7 +97,7 @@ class Character : public Person {
            evaluateText(info);
         }
 
-        virtual void display(Character other, int characterType) {
+        virtual void display(Character& other, int characterType) {
            evaluateText(other, characterType);
         }
 
@@ -118,7 +118,7 @@ class Character : public Person {
 
 
 
-        virtual void evaluateText(Character other, int characterType) { 
+        virtual void evaluateText(Character& other, int characterType) { 
             if (characterType == 0) { // attacking enemy {
                 if (elementType == "Fire") {
                     if (other.elementType == "Fire") { //attacking enemy
