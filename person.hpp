@@ -21,7 +21,7 @@ class Person {
         }
 
 
-        virtual void evaluateText(std::string) = 0;
+        virtual void display(std::string) = 0;
 
 
 
