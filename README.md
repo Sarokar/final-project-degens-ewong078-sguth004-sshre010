@@ -95,4 +95,8 @@
  > Instructions on installing and running your application
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+ > 
+ > 
+ > Basically, we have a combat system that incorporates elements in battle. This requires the player to be more strategic in combat. Each element has its own strength and weakness, and it affects its attack based on the element it attacks. Ex) Grass is super effective against Water, so the damage will be higher. For testing, we made a test harness in combat_tests.hpp to test out all 9 elements in battle. We made Fire/Water/Grass objects and called the calcAttack() and calcEnemyAttack() functions to do the elemental damage calculations for us. Each elemental character would attack each other, and we calculated how much damage each character did based on their elements. With the harness, we made sure that the elememtal damage multipliers were correctly calculated by checking the Enemy's armor/health and Player's armor/health after each Element vs. Element test case. We made sure that the elememtal damage was correctly subtracted from the characters' armor/health. 
+ 
  
