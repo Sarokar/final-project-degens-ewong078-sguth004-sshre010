@@ -87,6 +87,10 @@
  > 
  > ![Screenshot5](https://user-images.githubusercontent.com/81605224/120272167-7544ee00-c261-11eb-94bf-fa379c2b061b.PNG)
  > 
+ > **Valgrind because that takes a long time to show on main
+ > 
+ > ![screenshot6](https://user-images.githubusercontent.com/81605224/120295186-c3ff8180-c27b-11eb-8361-2ac29523ccb4.PNG)
+
 
 
 
