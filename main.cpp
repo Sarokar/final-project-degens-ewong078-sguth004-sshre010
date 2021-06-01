@@ -192,6 +192,9 @@ if(ans == "1") {
         delay();
         cout << "(You encounter a fierce dolphin! (¬_¬)  )" << endl;
         // Water dolphin("Fierce Dolphin",75,10,20,20,"Water");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character dolphin("Fierce Dolphin",0,75,10,"Water");
         dolphin.newWeapon(20);
         dolphin.newArmor(20);
@@ -260,7 +263,7 @@ if(ans == "1") {
         // waterPlayer.newArmor(2);
         // waterPlayer.newWeapon(4);
 
-
+        waterPlayer.setHP(100);
         waterPlayer.newArmor(20);
         waterPlayer.newWeapon(20);
 
@@ -279,6 +282,9 @@ if(ans == "1") {
         cout << "(His claws seem to shoot fire balls…...)" << endl;
         delay();
         // Fire crab("Fire Crab",100,15,35,30,"Fire");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character crab("Fire Crab", 0, 100,15, "Fire");
         crab.newWeapon(35);
         crab.newArmor(30);
@@ -371,6 +377,9 @@ if(ans == "1") {
         delay();
         cout << "Thank you idiot! I gacha now!!!" << endl;
         // Water ed("Edmund the Whale",100,15,10,50,"Water");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character ed("Edmund the Whale", 0, 100, 15,"Water");
         ed.newWeapon(10);
         ed.newArmor(50);
@@ -435,6 +444,9 @@ if(ans == "1") {
         delay();
         cout << "“WTF IS WRONG WITH YOU D:”" << endl;
         // Water ed("Edmund the Whale",100,15,10,50,"Water");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character ed("Edmund the Whale", 0, 100, 15,"Water");
         ed.newWeapon(10);
         ed.newArmor(50);
@@ -557,6 +569,9 @@ if(ans == "2") {
         cout << "(The mother pulls out the newly created Grass Grass Gun and Helmet 2 for 1 combo O_O" << endl;
         delay();
         // Grass motor("Mamacycle",69,18.5,15,15,"Grass");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
 
         Character motor("Mamacycle",0, 69,18.5,"Grass");
         motor.newArmor(15);
@@ -758,6 +773,9 @@ if(ans == "2") {
         cout << "HAHAHAHA SLEEP FOREVER TWERP" << endl;
         delay();
         // Water demon("Sleep Demon",140,25,25,25,"Water");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character demon("Sleep Demon",0,140,25,"Water");
         demon.newArmor(25);
         demon.newWeapon(25);
@@ -857,9 +875,12 @@ if(ans == "2") {
         cin >> ans;
         longDelay();
         // Fire Sarokar("Sarokar the Car",125,30,20,20,"Fire");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character sarokar("Sarokar the Car", 0, 125,30,"Fire");
         sarokar.newWeapon(20);
-        sarokar.newArmor(10);
+        sarokar.newArmor(20);
 
         while(sarokar.getHealth() != 0) {
         if(waterPlayer.getHealth() == 0) {
@@ -960,6 +981,9 @@ if(ans == "2") {
         delay();
         cout << "(You encounter a fierce dolphin! (¬_¬)  )" << endl;
         // Water dolphin("Fierce Dolphin",75,10,20,20,"Water");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character dolphin("Fierce Dolphin",0,75,10,"Water");
         dolphin.newWeapon(20);
         dolphin.newArmor(20);
@@ -1020,6 +1044,7 @@ if(ans == "2") {
         cout << "*dying* You better watch out for Edmund…. *cough* *dead*" << endl;
         delay();
         cout << "*Receive Fin Sword and Fin Armor :O*" << endl;
+        waterPlayer.setHP(100);
         waterPlayer.newArmor(20);
         waterPlayer.newWeapon(20);
         delay();
@@ -1036,6 +1061,9 @@ if(ans == "2") {
         cout << "(His claws seem to shoot fire balls…...)" << endl;
         delay();
         // Fire crab("Fire Crab",100,15,35,30,"Fire");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character crab("Fire Crab", 0, 100,15, "Fire");
         crab.newWeapon(35);
         crab.newArmor(30);
@@ -1133,6 +1161,9 @@ if(ans == "2") {
         delay();
         cout << "Thank you idiot! I gacha now!!!" << endl;
         // Water ed("Edmund the Whale",100,15,10,50,"Water");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character ed("Edmund the Whale", 0, 100, 15,"Water");
         ed.newWeapon(10);
         ed.newArmor(50);
@@ -1196,7 +1227,11 @@ if(ans == "2") {
         if(ans == "2") {
         delay();
         cout << "“WTF IS WRONG WITH YOU D:”" << endl;
+
         // Water ed("Edmund the Whale",100,15,10,50,"Water");
+        waterPlayer.setHP(100);
+        firePlayer3.setHP(100);
+        grassPlayer.setHP(100);
         Character ed("Edmund the Whale", 0, 100, 15,"Water");
         ed.newWeapon(10);
         ed.newArmor(50);
@@ -1319,6 +1354,9 @@ delay();
 cout << "Text Fighting Time Now!" << endl;
 delay();
 // Fire bandit("Bandit",100,30,25,20,"Fire");
+waterPlayer.setHP(100);
+firePlayer3.setHP(100);
+grassPlayer.setHP(100);
 Character bandit("Bandit",0,100,30,"Fire");
 bandit.newWeapon(25);
 bandit.newArmor(20);
@@ -1449,6 +1487,9 @@ if(ans == "3") {
 cout << "aight bet" << endl;
 delay();
 }
+waterPlayer.setHP(100);
+firePlayer3.setHP(100);
+grassPlayer.setHP(100);
 // Water appren("Demon Lords Apprentice",135,30,30,20,"Water");
 Character appren("Demon Lords Apprentice",0,135,30,"Water");
 appren.newWeapon(30);
@@ -1550,6 +1591,9 @@ delay();
 cout << "Aight no mo stalling story getting a bit too long" << endl;
 delay();
 // Grass demonlord("Shane the Demon Lord",145,35,35,20,"Grass");
+waterPlayer.setHP(100);
+firePlayer3.setHP(100);
+grassPlayer.setHP(100);
 Character demonlord("Shane the Demon Lord",0,145,35, "Grass");
 demonlord.newArmor(35);
 demonlord.newWeapon(20);
@@ -1564,7 +1608,7 @@ cin >> ans;
 if(ans == "1") {
 cout << "==============================================================" << endl;
 // Player3.calcAttack(demonlord);
-grassPlayer.display(demonlord,1);
+grassPlayer.display(demonlord,0);
 
 delay();
 }
