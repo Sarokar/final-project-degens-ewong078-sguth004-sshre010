@@ -1,0 +1,185 @@
+Bladeheart
+(ill deal with text output in if statements not this file for choices)
+(Each newline is one text box)
+
+Once upon a time in a land far far away......
+There once was a boy.... a very good, strong boy!
+.......
+What was his name again? i forgot...
+Ah yes! Thats the one! <name>!
+Now <name> here really is a good kid.
+Isn't that right, <name>? CHOICE
+Yes or y - Splendid! At least I remembered something!
+No or n - HUH! does that mean your a... bad boy? O_O
+Regardless you have an adventure to go on! later loser! uwu
+(The boy wakes up from his deep slumber to see his mother right next to his bed)
+Good morning sugarplum! Who's ready to become an adventurer today? CHOICE
+1 - OH OH ME ME PLEASE PICK ME!!! - Thats the spirit <name>!
+2 - Jeez mommy let me sleep in a bit im tired x( - Shut your whiney ass up, loser!
+3 - I don't like the monkey bars, i fell when I was a kid :( -.....why the fuck did shane put this in the game....
+I do not like you at all.
+.....
+Now get out of my house and sign up to be an adventurer.
+(<name> scurries on over to the adventurers guild and goes right up to the beautiful looking receptionist)
+Hey little squirt! What can I do for you! CHOICE
+1 - I want to be an adventurer WOOHOO - ......... - HAHAHAHAHAHAAAHAAH you want to be an adventurer? NO SHOT - GAME OVER lol (reloop)
+2 - Yo u kinda cute honey ;) - I'm a dude - ..... - GAME OVER lol (reloop this)
+3 - Hello! - You seem like you got what it takes - Here's your adventurer card now go on a quest! YIPEE
+Oh, I almost forgot head off to the blacksmith, his name is Shane he is really cool, funny, basically a perfect human being.
+(<name> can't wait to meet Shane as he is so dreamy so he sprints to the blacksmith)
+Yo what up I'm Shane B) CHOICE
+1 - OMG U R TOTES COOL - Yessir heres your gear ugly - *Received Shit Armor and Shit Sword from the heavenly Shane!*
+2 - Bruh you look like a old camel - get out please *cries* - *Received nothing except for guilt for lying to the heavenly Shane...*
+(It seems we are all set for an adventure and a grand one too so <name> goes to check the open quests :) )
+1 - Edmund the Whale is killing all dolphins and fish for no reason O_O
+2 - Sarokar the Car is speeding D:
+3 - The Demon Lord has risen :)
+EDMUND ROUTE:
+(<name> begins to set sail to Degen Island where Edmund the Whale is usually spotted)
+…………
+(You encounter a fierce dolphin! (¬_¬)  ) - fight decent speed low hp
+*dying* You better watch out for Edmund…. *cough* *dead*
+(<name> continues on having some dolphin fin for dinner)
+*HP restored to full*
+*splish*
+*splash*
+)_)
+(ITS A GIANT CRAB (╯°□°）╯︵ ┻━┻)
+……
+(His claws seem to shoot fire balls…...)
+*fight*
+*Received Crab Armor (ᵔᴥᵔ)*
+(Eventually <name> finds Edmund! O_o)
+…………
+(Edmund the Whale was not in water, but ON THE LAND!! -_-)
+Hello little one….. Please push me back into Lake Primogem…… *suffocating*
+1 - *Push him in* - “Thank you idiot! I gacha now!!!” - *fight* he has normal stats high HP
+2 - *Attack him when he’s vulnerable and sad ;(* - “WTF IS WRONG WITH YOU D:” *fight* lower stats
+3 - *Walk away B)* - “Hey come back!!!! Why would you come all this way…. *suffocating* just to leave????????? F2P Scum…….” - reloop
+
+Player wins - gg bro - *Received Whale Tooth Sword ＼( °□° )／*
+Player dies - “lmao ur trash at a text based game” - restart to beginning of fight
+
+(Back to the safety of the village (⌐■_■) )
+1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯ - reloop
+2 - Sarokar the Car is speeding D:
+3 - The Demon Lord has risen :) - must complete prior two to even attempt this
+
+
+
+SAROKAR ROUTE:
+(<name> decides to head on over to the streets  ╮ (. ❛ ᴗ ❛.) ╭)
+(The screeching sound of tires is everywhere! ( ͡° ʖ̯ ͡°) )
+………
+(Hol up, that motorcycle baby looks kinda cute (づ｡◕‿‿◕｡)づ )
+Pet it?
+Yes - WHO THE FUCK YOU THINK YOU ARE TOUCHING MY SON!
+No - WHO THE FUCK YOU THINK YOU ARE IGNORING MY SON!
+(A wild angry Motorcycle Mother appears! (゜-゜) )
+(The mother pulls out the newly created Grass Grass Gun 
+┌∩┐(◣_◢)┌∩┐)
+*fight* high speed cuz she a motorcycle // if you die in any of these little fights just reloop no text
+*Received Grass Grass Gun* ヽ༼ຈل͜ຈ༽ﾉ*
+(Well you just killed his mother)
+(..........................)
+(Lets move on ¯\_(ツ)_/¯)
+(The roads are so long and winding <name> starts to get tired ¯\(°_o)/¯)
+<name> falls asleep standing up? o_O
+W
+T
+F
+…….
+..
+….
+.
+…
+THE SLEEP DEMON APPEARS O_O
+“oooOOooooooOOOO its me, the SLEEP demon ಠ_ಠ”
+1 - nah fuck this *wake up* - HAHAHAHA SLEEP FOREVER TWERP - fight (demon higher attack lower everything else)
+2 -  WOOHOO FIGHT FIGHT FIGHT - Nah u the real demon O_O fuck this - no fight
+….
+(Anyways, lets get back to our adventure!!!!!!)
+VRMMMMM VRMMMMMMMM
+SKRRRRRRRRT
+(Yo that car was going super fast!)
+….
+THAT MUST BE SAROKAR!
+(After 53 months of trying to catch up to Sarokar)
+1 - IM A HUGE FAN PLEASE TALK TO MEEEEEEEE - Ooooooo ok, what do u want from me little man -
+	1- lmao get baited idiot time to stop ur no good speeding - fight
+	2- *cut his tires* I am speed now - fight Sarokar speed mad low now
+2 - Bruh u slow af it didnt take anytime to catch up to u - fight
+Player wins - gg bro - *Received Rubber Armor* ＼( °□° )／*
+Player dies - “lmao ur trash at a text based game” - restart to beginning of fight
+
+(Back to the safety of the village (⌐■_■) )
+1 - Edmund the Whale is dead….. - You…... Killed…... Him ¯\(°_o)/¯ - reloop
+2 - Sarokar the Car is speeding in heaven :D
+3 - The Demon Lord has risen :) - must complete prior two to even attempt this
+
+
+DEMON LORD ROUTE
+
+(Alright looks like you made it this far)
+(Sorry whoever made this story is an absolute idiot)
+(I apologize for what has happened so far)
+(But now the story will be super duper clean)
+:)
+
+(With the power you gained from your journey so far)
+(You are finally on your way to the Demon Lord O_O)
+….
+Whats this?
+A bandit appears! Oh No!
+With a complete Supa Hot Fire Armor set with fire sword with no additional cost!
+Text Fighting Time Now!
+Fight
+(Do you want the armor or the sword? ( ͡° ͜ʖ ͡°))
+1 - Armor
+2 - Sword
+(I would’ve taken the other option…)
+(Regardless, <name> is near the demon lords castle)
+1 - Oh boy! I finally made it! Lets walk through the front door :) :) 
+2 - I’m sleepy bruh *fall asleep standing up?* - Nah this aint the time, <name>!
+3 - Yo this mushroom on the ground looks tasty *eat mushroom* - gain 1 attack PogU
+……
+“Whatcha doing over there squirt?
+(It’s Shane!!!!! (づ｡◕‿‿◕｡)づ)
+“Good to see you, whatcha doing around here :P”
+1 - Here to take down the demon lord, heard hes causing a ruckus! ｡^‿^｡ - Oh well good luck with that :) 
+2 - I was just…. Passing by… wh… what about you…. (✿◠‿◠) - oh u know just livin Ahahaha….. Later!
+3 - Get lost ugly - … - “Ill let that slide cuz I am Shane (. ❛ ᴗ ❛.)” 
+“Anyways Im gone” - *Shane Disappeared* (╯°□°）╯︵ ┻━┻
+(Man that Shane guy is cool ~(˘▾˘~) )
+“Ayo whatchu doing out here”
+(A mysterious man pulls up in full water gear O_O)
+1 - yo man who u? - “Im the demon lords apprentice ヽ༼ຈل͜ຈ༽ﾉ “ - oh
+2 - i like the drip young man - “Thanks man :D my dads the demon lord so he gave it to me” - oh
+3 - u wanna fight? - aight bet
+*fight*
+“Aye good shit u got my ass”
+:3
+“gg my dads chilling that there castle gl”
+*Received Water Armor (=^ェ^=) )
+(<name> heeds his advice and advances on)
+“yo”
+……
+O_O
+“I didn’t expect to see you again so soon”
+(.... ITS SHANE ( ͡° ʖ̯ ͡°) )
+(THE DEMON LORD IS SHANE??? (▀̿Ĺ̯▀̿ ̿) )
+“So we fighting or wot”
+1 - aight bet - ok
+2 - WHY ARE YOU THE DEMON LORD!? ┻━┻ ︵ ＼( °□° )／ ︵ ┻━┻ - HAHA FOOL HOW DID U NOT KNOW?????????
+3 - I knew it was u lmao this author is so predictable - lol shut up
+“Aight no mo stalling story getting a bit too long”
+Player wins - gg bro - *Received Rubber Armor* ＼( °□° )／*
+Player dies - “lmao ur trash at a text based game” - restart to beginning of fight
+“Ay gg man.”
+“Hope you enjoyed the game, TAs and graders”
+“L8r”
+(Shane dies)
+(Please give good grade, we got a 27/50 on first proposal)
+……..
+(Thank you (: )
+
