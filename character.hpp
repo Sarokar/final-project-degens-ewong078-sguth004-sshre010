@@ -125,7 +125,15 @@ class Character : public Person {
 
         virtual void evaluateText(string toEval) {
             if (toEval == "HP") {
-                cout << hp;
+                if (elementType == "Fire") {
+                    fireType.getHealth();
+                }
+                if (elementType == "Water") {
+                    waterType.getHealth();
+                }
+                if (elementType == "Grass") {
+                    grassType.getHealth();
+                }
             }
             if (toEval == "speed") {
                 cout << speed;
