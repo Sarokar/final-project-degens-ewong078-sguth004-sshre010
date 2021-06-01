@@ -12,3 +12,8 @@ ADD_EXECUTABLE(test
 	combat_tests.cpp
 )
 
+ADD_EXECUTABLE(charTest
+	combat.cpp
+	character_tests.cpp
+)
+
