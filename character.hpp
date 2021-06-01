@@ -59,8 +59,17 @@ class Character : public Person {
             speed = toSet;
         }
         
-        double setHP(double toSet) {
+        void setHP(double toSet) {
             hp = toSet;
+            if (elementType == "Fire") {
+                fireType.setHealth(hp);
+            }
+            if (elementType == "Water") {
+                waterType.setHealth(hp);
+            }
+            if (elementType == "Grass") {
+                grassType.setHealth(hp);
+            }
         }
 
         double setAtt(double toSet) {
@@ -91,7 +100,20 @@ class Character : public Person {
             }
         }
 
-    
+        double getHealth() {
+            if (elementType == "Fire") {
+                return fireType.getHealth();
+            }
+            else if (elementType == "Water") {
+                return waterType.getHealth();
+            }
+            else if (elementType == "Grass") {
+                return grassType.getHealth();
+            }
+            else {
+                return 0;
+            }
+        }
 
         virtual void display(std::string info) {
            evaluateText(info);
