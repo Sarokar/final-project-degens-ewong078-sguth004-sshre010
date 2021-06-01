@@ -6,6 +6,8 @@
 class Water : public Combat {
 
 public:
+    Water() {}
+
     Water(string name, double health, double attack, double weaponStrength, double armor, string element) : Combat(name, health, attack, weaponStrength, armor, element) {}
 
     void calcAttack(Combat& enemy) {
@@ -45,7 +47,7 @@ public:
 
     void calcEnemyAttack(Combat& player) {
         int chance = rand() % 100;
-        if (chance < 75) {
+        if (chance < 65) {
             if (player.getElement() == "Water") {
                 double temp = (attack + weaponStrength) * 1.0;
                 player.damage(temp);

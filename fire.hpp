@@ -6,6 +6,8 @@
 class Fire : public Combat {
 
 public:
+    Fire() {}
+    
     Fire(string name, double health, double attack, double weaponStrength, double armor, string element) : Combat(name, health, attack, weaponStrength, armor, element) {}
 
     void calcAttack(Combat& enemy) {
