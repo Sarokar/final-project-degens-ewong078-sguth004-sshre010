@@ -1,4 +1,5 @@
 #include <iostream>
+#include "combat.hpp"
 #include "combat.cpp"
 #include "fire.hpp"
 #include "water.hpp"
@@ -1466,23 +1467,6 @@ cout << "Just reset bruh" << endl;
 
 return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -31,6 +31,9 @@ using namespace std;
         double getArmor();
         void setArmor(double);
 	void setWeapon(double);
+        void setWeaponStrength(double);
+
 };
 
 #endif //_COMBAT_HPP_
+

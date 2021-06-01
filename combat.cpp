@@ -48,6 +48,10 @@ double Combat::getHealth() {
     return health;
 }
 
+void  Combat::setWeaponStrength(double _weaponStrength) {
+    weaponStrength = _weaponStrength;
+}
+
 void Combat::setHealth(double _health) {
     health = _health;
 }
