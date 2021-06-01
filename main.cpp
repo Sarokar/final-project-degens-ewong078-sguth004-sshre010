@@ -7,7 +7,6 @@
 #include <string>
 #include <unistd.h>
 
-
 //NOTICE NOTCIE  I WILL UPDATE ALL THE COMBAT CALLS AND USER CALLS WHEN THEY ARE ACTUALLY IMPLEMENTED
 
 // YOU HAVE TO DO THE CORRECT INPUT OR IT WILL NOT WORK PLEASE
@@ -40,8 +39,8 @@ delay();
 cout << "What was his name again? i forgot..." << endl;
 delay();
 cout << "please type in your name" << endl;
-string user = "";
-cin >> user;;
+string user;
+cin >> user;
 longDelay();
 //playername User;
 //User(user);
