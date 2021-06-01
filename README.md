@@ -92,7 +92,6 @@
 
 
  ## Installation/Usage
- > Instructions on installing and running your application
  > (With the use of unistd.h in the main so that they game can have delayed text, you must use Unix and Unix-like operating systems, such as GNU variants, distributions of Linux and BSD, and macOS, and compilers such as GCC and LLVM. If not available before compiling within the terminal please comment out that header and have the delay and longDelay functions be empty.)
  > 
  > To install, first clone the master branch of this repository recursively, then cmake . then make and you should now be able to play the game with ./main and test with ./test. or you can just simply compile main with g++ main.cpp then ./a.out.
