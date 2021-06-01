@@ -4,7 +4,6 @@ SET(CMAKE_CXX_STANDARD 11)
 
 ADD_EXECUTABLE(main
 	main.cpp
-	combat.cpp
 )
 
 ADD_EXECUTABLE(test
