@@ -8,8 +8,7 @@
 #include "fire.hpp"
 #include "grass.hpp"
 #include "water.hpp"
-#include "weapons.hpp"
-#include "armor.hpp"
+
 
 class Character : public Person {
     private:

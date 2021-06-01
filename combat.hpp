@@ -30,6 +30,7 @@ using namespace std;
         void setElement(string);
         double getArmor();
         void setArmor(double);
+        void setWeaponStrength(double);
 
 };
 
